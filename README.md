@@ -70,17 +70,17 @@ did-demo/
 
 ### 1. Create or Update Identity  
 ```sh
-node scripts/interact.js
+npx hardhat run --network localhost scripts/interact.js
 ```
 
 ### 2. View Your Identity  
 ```sh
-node scripts/viewIdentity.js
+npx hardhat run --network localhost scripts/viewIdentity.js
 ```
 
 ### 3. View Another User’s Identity  
 ```sh
-node scripts/viewOther.js
+npx hardhat run --network localhost scripts/viewOther.js
 ```
 
 ---
